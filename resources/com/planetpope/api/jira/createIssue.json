@@ -8,6 +8,12 @@
        \"description\": \"$description\",
        \"issuetype\": {
           \"name\": \"$issueTypeName\"
-       }
+       },
+       \"priority\": {
+          \"name\": \"$priority\"
+       },
+       \"parent\": {
+          \"key\": \"$parentKey\"
+      }
    }
 }
